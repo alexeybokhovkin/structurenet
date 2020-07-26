@@ -2,7 +2,7 @@
 
 set -x
 
-CUDA_VISIBLE_DEVICES=3 python ../pretrain_part_pc.py \
+CUDA_VISIBLE_DEVICES=3 python3 ../pretrain_part_pc.py \
   --exp_name 'part_pc_ae_chair' \
   --category 'Chair' \
   --data_path '/home/alexey_bokhovkin/projects/scannet-part-segmentation/data_full/chair_geo' \
