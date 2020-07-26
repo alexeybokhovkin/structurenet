@@ -1,7 +1,11 @@
-python ./pretrain_part_pc.py \
+#!/bin/bash
+
+set -x
+
+CUDA_VISIBLE_DEVICES=3 python ./pretrain_part_pc.py \
   --exp_name 'part_pc_ae_chair' \
   --category 'Chair' \
-  --data_path '../data/partnetdata/chair_geo' \
+  --data_path '/home/alexey_bokhovkin/projects/scannet-part-segmentation/data_full/chair_geo' \
   --train_dataset 'train_no_other_less_than_10_parts.txt' \
   --val_dataset 'val_no_other_less_than_10_parts.txt' \
   --epochs 200 \
