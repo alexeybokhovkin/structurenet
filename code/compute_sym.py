@@ -5,7 +5,7 @@
 import numpy as np
 import torch
 from pyquaternion import Quaternion
-from utils import load_pts, export_ply_with_label, transform_pc
+from utils_structure import load_pts, export_ply_with_label, transform_pc
 from scipy.spatial.distance import cdist
 from sklearn.decomposition import PCA
 import scipy.spatial
