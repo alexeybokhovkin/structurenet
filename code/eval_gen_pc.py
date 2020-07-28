@@ -9,7 +9,7 @@ import shutil
 from argparse import ArgumentParser
 import numpy as np
 import torch
-import utils
+import utils_structure
 from config import add_eval_args
 from data import PartNetDataset, Tree
 

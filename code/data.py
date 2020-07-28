@@ -11,7 +11,7 @@ from torch.utils import data
 from pyquaternion import Quaternion
 from sklearn.decomposition import PCA
 from collections import namedtuple
-from utils import one_hot
+from utils_structure import one_hot
 import trimesh
 
 # store a part hierarchy of graphs for a shape

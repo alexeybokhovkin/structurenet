@@ -12,7 +12,7 @@ import torch_scatter
 import compute_sym
 from chamfer_distance import ChamferDistance
 from data import Tree
-from utils import linear_assignment, load_pts, transform_pc_batch, get_surface_reweighting_batch
+from utils_structure import linear_assignment, load_pts, transform_pc_batch, get_surface_reweighting_batch
 
 
 class Sampler(nn.Module):

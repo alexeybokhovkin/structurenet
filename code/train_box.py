@@ -15,7 +15,7 @@ import torch
 import torch.utils.data
 from config import add_train_vae_args
 from data import PartNetDataset, Tree
-import utils
+import utils_structure
 
 # Use 1-4 CPU threads to train.
 # Don't use too many CPU threads, which will slow down the training.
